@@ -15,12 +15,21 @@ llm_model = ChatGoogleGenerativeAI(  model="gemini-2.5-flash",
     api_key = API_KEY 
 )
 
-st.header("PDF Based Chat System")
+st.title("📄 AskYourPDF - Chat with any document")
 
 model = SentenceTransformer(
         "sentence-transformers/all-MiniLM-L6-v2")
 
-file = st.file_uploader("Select the url...")
+file = st.file_uploader("Upload a PDF file..",type="pdf",help="Maximum file size: 200MB")
+
+
+with st.expander("💡 Example questions"):
+    st.markdown("""
+    - "What is this document about?"
+    - "Summarize the key points"
+    - "List all the dates mentioned"
+    - "What are the action items?"
+    """)
 
 rag = RAG(llm_model,model)
 
