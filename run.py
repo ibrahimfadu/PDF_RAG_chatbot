@@ -5,9 +5,11 @@ import streamlit as st
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
+API_KEY = st.secrets["GOOGLE_GEMINI"]
 
-API_KEY = os.getenv("GOOGLE_GEMINI")
+#load_dotenv()
+
+#API_KEY = os.getenv("GOOGLE_GEMINI")
 
 llm_model = ChatGoogleGenerativeAI(  model="gemini-2.5-flash",
     api_key = API_KEY 
