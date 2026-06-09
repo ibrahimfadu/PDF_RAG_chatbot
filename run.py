@@ -3,6 +3,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from sentence_transformers import SentenceTransformer
 import streamlit as st 
 from dotenv import load_dotenv
+import os
 
 load_dotenv()
 
@@ -12,6 +13,7 @@ llm_model = ChatGoogleGenerativeAI(  model="gemini-2.5-flash",
     api_key = API_KEY 
 )
 
+st.header("PDF Based Chat System")
 
 model = SentenceTransformer(
         "sentence-transformers/all-MiniLM-L6-v2")
