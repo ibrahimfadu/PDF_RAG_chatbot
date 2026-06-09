@@ -8,7 +8,7 @@
 
 ---
 
-## ✨ What It Does
+##  What It Does
 
 Upload any PDF and have a real conversation with it. Ask questions in plain English — the AI finds answers directly from your document.
 
