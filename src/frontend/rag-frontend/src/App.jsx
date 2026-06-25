@@ -1,8 +1,10 @@
+import Home from './pages/home.jsx';
+
 function App() {
   return(
+
 <div>
-    <input type="number" name="phone" value="phoneNumber "/> 
-  
+  <Home/>
 </div>
   ); 
 
