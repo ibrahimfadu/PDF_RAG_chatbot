@@ -1,7 +1,8 @@
 export default function Home(){ 
-  const handel = 
   return (
     <>
+    <form class="class C1">
+      
     <h2>Add the sources(pdfs)</h2>
     <div>
     <input
@@ -11,7 +12,9 @@ export default function Home(){
      console.log(file);
    }}
 />
-    </div>
+
+      </div>
+      </form>
     </>
   );
 }
