@@ -1,12 +1,13 @@
-import Home from './pages/home.jsx';
+import FileUpload from "./components/fileUpload";
 
 function App() {
   return(
-
-<div>
-  <Home/>
-</div>
-  ); 
+    <>
+    <div >
+      <FileUpload />
+    </div>
+    </>
+  );
 
 }
 export default App
