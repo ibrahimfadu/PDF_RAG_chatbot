@@ -10,7 +10,7 @@ class RAG():
         self.llm_model = llm_model
         self.embedding_model  = embedding_model
 
-    #load file 
+    #load file
     def load_file(self,file) ->str:
         if not file:
             raise ValueError("InValued File..")
@@ -19,7 +19,7 @@ class RAG():
         text = " "
         for page in documents.pages:
             text += page.extract_text() + "\n"
-        return text       
+        return text
 
     #text split
     def text_splitter(self,text : str,size: int|float , overlap: int|float) ->list[str]:
@@ -29,7 +29,7 @@ class RAG():
         chunk = model_chunk.split_text(text)
         return chunk
 
-    #encoding 
+    #encoding
     def encoding_text(self,chunks : list[str] | str)->list[float]:
         if not chunks:
             raise ValueError("No chunks found..")
@@ -45,7 +45,7 @@ class RAG():
         index = faiss.IndexFlatL2(embedded.shape[1])
         index.add(np.array(embedded,dtype=np.float32))
         return index
-    
+
     def search_query(self,index, question :list | str,chunks :list[str]) ->str:
         if not question:
             raise ValueError("Invalid Question")
@@ -59,10 +59,10 @@ class RAG():
         return context
 
     def result(self,context: str,question: str):
-        prompt = f""" 
+        prompt = f"""
             context: {context}, question:{question}
             answer only from context
         """
         response = self.llm_model.invoke(prompt)
         return response
-          
+

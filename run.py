@@ -1,19 +1,25 @@
-from main import RAG     
+from main import RAG
 from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_ollama import ChatOllama
 from sentence_transformers import SentenceTransformer
-import streamlit as st 
+import streamlit as st
 from dotenv import load_dotenv
 import os
 
-API_KEY = st.secrets["GOOGLE_GEMINI"]
+#API_KEY = st.secrets["GOOGLE_GEMINI"]
 
-#load_dotenv()
+load_dotenv()
 
-#API_KEY = os.getenv("GOOGLE_GEMINI")
+API_KEY = os.getenv("GOOGLE_GEMINI")
+online = False 
 
-llm_model = ChatGoogleGenerativeAI(  model="gemini-2.5-flash",
-    api_key = API_KEY 
+llm_model = ChatOllama(model="llama3.1")
+
+if(online):
+   llm_model = ChatGoogleGenerativeAI(  model="gemini-2.5-flash",
+    api_key = API_KEY
 )
+    
 
 st.title("📄 AskYourPDF - Chat with any document")
 
@@ -38,11 +44,11 @@ def rag_load(file_data):
     text = rag.load_file(file_data)
     size = 500
     overlap = 100
-    
+
     chunks = rag.text_splitter(text,size,overlap)
-    
+
     encoding_text = rag.encoding_text(chunks)
-    
+
     index = rag.store(encoding_text);
     return index,chunks
 
@@ -64,4 +70,4 @@ if file:
         st.success("generating result...")
         st.write(response.content)
 
-    
+
