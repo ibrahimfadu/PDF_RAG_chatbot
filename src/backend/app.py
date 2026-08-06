@@ -13,5 +13,5 @@ print(text)
 @app.post("/upload")
 def fileHandle(file):
   text = load.load_file(file)
-  chunks =
+  chunks = 
 
