@@ -1,5 +1,6 @@
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
+#RecursiveCharacterTextSplitter used seprating the text based on the (.,"",;etc)
 class Splitter():
     def __init__(self,size: int|float, overlap: int|float):
         self.size = size

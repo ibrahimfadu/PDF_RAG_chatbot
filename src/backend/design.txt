@@ -1,0 +1,24 @@
+phase 1
+pdf
+text
+chunks
+embedding
+store to vector database
+if we get the query then search in the bdb
+
+
+phase 2
+add auth(login/register)
+multi pdf
+text
+chunks
+embedding
+upgraded database
+highbrid search
+add redis
+
+phase 3 
+dockersize servises 
+add kafka to quickly take the file 
+deploy that in the aws
+

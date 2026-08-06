@@ -1,17 +1,18 @@
 from integrations/loader import Loader
-from fastapi import FastApi
 from chunking/chunk import Splitter
+from embeddings/embedding import Embedding
+
 
 load = Loader()
-Splitter = Splitter()
-app = FastApi()
+chunk = Splitter(size,overlap)
+embedd = Embedding()
 
-file = "/home/ibrahimfadu/books/ABUIABA9GAAghIK0ugYowM2h3QY.pdf"
+data = load.load_file(file)
 
-print(text)
+data = chunk.text_splitter(data)
 
-@app.post("/upload")
-def fileHandle(file):
-  text = load.load_file(file)
-  chunks = 
+embedd.encoding_text(chunk)
+
+
+
 
