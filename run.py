@@ -13,7 +13,7 @@ load_dotenv()
 API_KEY = os.getenv("GOOGLE_GEMINI")
 online = False 
 
-llm_model = ChatOllama(model="llama3.1")
+llm_model = ChatOllama(model="gemma4")
 
 if(online):
    llm_model = ChatGoogleGenerativeAI(  model="gemini-2.5-flash",
@@ -23,8 +23,16 @@ if(online):
 
 st.title("📄 AskYourPDF - Chat with any document")
 
-model = SentenceTransformer(
-        "sentence-transformers/all-MiniLM-L6-v2")
+#load the embedding model
+@st.cache_resource
+def load_embedding_model():
+    try:
+        model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+        return model
+    except Exception as e:
+        raise ValueError("Can't able to load the model") 
+
+model=load_embedding_model();
 
 file = st.file_uploader("Upload a PDF file..",type="pdf",help="Maximum file size: 200MB")
 

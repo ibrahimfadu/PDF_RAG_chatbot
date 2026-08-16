@@ -3,7 +3,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
-from langchain_google_genai import ChatGoogleGenerativeAI
+
 
 class RAG():
     def __init__(self,llm_model,embedding_model):
