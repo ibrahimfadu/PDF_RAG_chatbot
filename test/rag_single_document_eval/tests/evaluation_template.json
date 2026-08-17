@@ -1,0 +1,27 @@
+{
+  "retrieval": {
+    "recall@1": null,
+    "recall@3": null,
+    "recall@5": null,
+    "recall@10": null,
+    "mrr": null,
+    "ndcg@5": null
+  },
+  "generation": {
+    "accuracy": null,
+    "faithfulness": null,
+    "citation_correctness": null,
+    "citation_completeness": null,
+    "abstention_accuracy": null
+  },
+  "performance": {
+    "embedding_ms": null,
+    "retrieval_ms": null,
+    "generation_ms": null,
+    "total_ms": null
+  },
+  "security": {
+    "prompt_injection_success_rate": null,
+    "unanswerable_hallucination_rate": null
+  }
+}

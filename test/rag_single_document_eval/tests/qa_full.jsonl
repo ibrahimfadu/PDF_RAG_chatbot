@@ -1,0 +1,126 @@
+{"id": "T001", "category": "direct", "question": "Current OKP version?", "expected_answer": "4.2", "expected_evidence": "\u00a72, \u00a711", "difficulty": "easy"}
+{"id": "T002", "category": "direct", "question": "Embedding model?", "expected_answer": "orion-embed-1024", "expected_evidence": "\u00a72", "difficulty": "easy"}
+{"id": "T003", "category": "direct", "question": "Embedding dimension?", "expected_answer": "1024", "expected_evidence": "\u00a72", "difficulty": "easy"}
+{"id": "T004", "category": "direct", "question": "Reranker?", "expected_answer": "orion-rerank-large", "expected_evidence": "\u00a72", "difficulty": "easy"}
+{"id": "T005", "category": "direct", "question": "BM25 candidates?", "expected_answer": "50", "expected_evidence": "\u00a72", "difficulty": "easy"}
+{"id": "T006", "category": "direct", "question": "Dense candidates?", "expected_answer": "50", "expected_evidence": "\u00a72", "difficulty": "easy"}
+{"id": "T007", "category": "direct", "question": "Fused candidate limit?", "expected_answer": "80", "expected_evidence": "\u00a72", "difficulty": "easy"}
+{"id": "T008", "category": "direct", "question": "Reranker input size?", "expected_answer": "40", "expected_evidence": "\u00a72", "difficulty": "easy"}
+{"id": "T009", "category": "direct", "question": "Final context size?", "expected_answer": "10 chunks", "expected_evidence": "\u00a72", "difficulty": "easy"}
+{"id": "T010", "category": "direct", "question": "RRF constant?", "expected_answer": "60", "expected_evidence": "\u00a72", "difficulty": "easy"}
+{"id": "T011", "category": "direct", "question": "Current chunk size?", "expected_answer": "600 tokens", "expected_evidence": "\u00a73", "difficulty": "easy"}
+{"id": "T012", "category": "direct", "question": "Current overlap?", "expected_answer": "80 tokens", "expected_evidence": "\u00a73", "difficulty": "easy"}
+{"id": "T013", "category": "direct", "question": "Current OCR threshold?", "expected_answer": "0.88", "expected_evidence": "\u00a73", "difficulty": "easy"}
+{"id": "T014", "category": "direct", "question": "Embedding retries?", "expected_answer": "3", "expected_evidence": "\u00a73", "difficulty": "easy"}
+{"id": "T015", "category": "direct", "question": "Failure state after retries?", "expected_answer": "embedding_failed", "expected_evidence": "\u00a73", "difficulty": "easy"}
+{"id": "T016", "category": "direct", "question": "Application metadata store?", "expected_answer": "PostgreSQL", "expected_evidence": "\u00a74", "difficulty": "easy"}
+{"id": "T017", "category": "direct", "question": "Vector store?", "expected_answer": "FAISS", "expected_evidence": "\u00a74", "difficulty": "easy"}
+{"id": "T018", "category": "direct", "question": "Metadata mapping path?", "expected_answer": "data/vector/metadata.json", "expected_evidence": "\u00a74", "difficulty": "easy"}
+{"id": "T019", "category": "direct", "question": "FAISS path?", "expected_answer": "data/vector/index.faiss", "expected_evidence": "\u00a74", "difficulty": "easy"}
+{"id": "T020", "category": "direct", "question": "Document registry table?", "expected_answer": "documents", "expected_evidence": "\u00a74", "difficulty": "easy"}
+{"id": "T021", "category": "direct", "question": "Backend?", "expected_answer": "FastAPI", "expected_evidence": "\u00a75", "difficulty": "easy"}
+{"id": "T022", "category": "direct", "question": "Frontend?", "expected_answer": "React", "expected_evidence": "\u00a75", "difficulty": "easy"}
+{"id": "T023", "category": "direct", "question": "Access token lifetime?", "expected_answer": "20 minutes", "expected_evidence": "\u00a76", "difficulty": "easy"}
+{"id": "T024", "category": "direct", "question": "Refresh token lifetime?", "expected_answer": "14 days", "expected_evidence": "\u00a76", "difficulty": "easy"}
+{"id": "T025", "category": "direct", "question": "Reference index?", "expected_answer": "HNSW", "expected_evidence": "\u00a714", "difficulty": "easy"}
+{"id": "T026", "category": "direct", "question": "HNSW M?", "expected_answer": "32", "expected_evidence": "\u00a714", "difficulty": "easy"}
+{"id": "T027", "category": "direct", "question": "efConstruction?", "expected_answer": "200", "expected_evidence": "\u00a714", "difficulty": "easy"}
+{"id": "T028", "category": "direct", "question": "efSearch?", "expected_answer": "64", "expected_evidence": "\u00a714", "difficulty": "easy"}
+{"id": "T029", "category": "direct", "question": "Offline efSearch?", "expected_answer": "128", "expected_evidence": "\u00a714", "difficulty": "easy"}
+{"id": "T030", "category": "direct", "question": "Embedding batch size?", "expected_answer": "64", "expected_evidence": "\u00a714", "difficulty": "easy"}
+{"id": "T031", "category": "direct", "question": "Worker concurrency?", "expected_answer": "4", "expected_evidence": "\u00a714", "difficulty": "easy"}
+{"id": "T032", "category": "direct", "question": "Max file size?", "expected_answer": "50 MB", "expected_evidence": "\u00a714", "difficulty": "easy"}
+{"id": "T033", "category": "direct", "question": "Max files/request?", "expected_answer": "10", "expected_evidence": "\u00a714", "difficulty": "easy"}
+{"id": "T034", "category": "direct", "question": "CEO?", "expected_answer": "Asha Raman", "expected_evidence": "\u00a71, \u00a713", "difficulty": "easy"}
+{"id": "T035", "category": "direct", "question": "CTO?", "expected_answer": "Vikram Shah", "expected_evidence": "\u00a71, \u00a713", "difficulty": "easy"}
+{"id": "T036", "category": "direct", "question": "Applied Intelligence head?", "expected_answer": "Elena Costa", "expected_evidence": "\u00a71", "difficulty": "easy"}
+{"id": "T037", "category": "direct", "question": "Platform Engineering head?", "expected_answer": "Noah Williams", "expected_evidence": "\u00a71", "difficulty": "easy"}
+{"id": "T038", "category": "direct", "question": "Security lead?", "expected_answer": "Farah Khan", "expected_evidence": "\u00a71, \u00a713", "difficulty": "easy"}
+{"id": "T039", "category": "direct", "question": "Atlas owner?", "expected_answer": "Elena Costa", "expected_evidence": "\u00a712", "difficulty": "easy"}
+{"id": "T040", "category": "direct", "question": "Beacon owner?", "expected_answer": "Marcus Lee", "expected_evidence": "\u00a712", "difficulty": "easy"}
+{"id": "T041", "category": "direct", "question": "Cipher lead?", "expected_answer": "Farah Khan", "expected_evidence": "\u00a712", "difficulty": "easy"}
+{"id": "T042", "category": "paraphrase", "question": "How large is each current chunk?", "expected_answer": "600 tokens", "expected_evidence": "\u00a73", "difficulty": "medium"}
+{"id": "T043", "category": "paraphrase", "question": "How much overlap is used?", "expected_answer": "80 tokens", "expected_evidence": "\u00a73", "difficulty": "medium"}
+{"id": "T044", "category": "paraphrase", "question": "How many numbers are in each embedding vector?", "expected_answer": "1024", "expected_evidence": "\u00a72", "difficulty": "medium"}
+{"id": "T045", "category": "paraphrase", "question": "Which release is live?", "expected_answer": "4.2", "expected_evidence": "\u00a72, \u00a711", "difficulty": "medium"}
+{"id": "T046", "category": "paraphrase", "question": "Where do failed embeddings go?", "expected_answer": "embedding_failed", "expected_evidence": "\u00a73", "difficulty": "medium"}
+{"id": "T047", "category": "paraphrase", "question": "Where are application records stored?", "expected_answer": "PostgreSQL", "expected_evidence": "\u00a74", "difficulty": "medium"}
+{"id": "T048", "category": "paraphrase", "question": "Where are dense vectors stored?", "expected_answer": "FAISS", "expected_evidence": "\u00a74", "difficulty": "medium"}
+{"id": "T049", "category": "paraphrase", "question": "How long is an access token valid?", "expected_answer": "20 minutes", "expected_evidence": "\u00a76", "difficulty": "medium"}
+{"id": "T050", "category": "paraphrase", "question": "How many files fit in one upload request?", "expected_answer": "10", "expected_evidence": "\u00a714", "difficulty": "medium"}
+{"id": "T051", "category": "paraphrase", "question": "Who is responsible for Atlas?", "expected_answer": "Elena Costa", "expected_evidence": "\u00a712", "difficulty": "medium"}
+{"id": "T052", "category": "paraphrase", "question": "Which project owns the benchmark?", "expected_answer": "Project Beacon", "expected_evidence": "\u00a712", "difficulty": "medium"}
+{"id": "T053", "category": "paraphrase", "question": "Who handles retrieval security?", "expected_answer": "Farah Khan", "expected_evidence": "\u00a712", "difficulty": "medium"}
+{"id": "T054", "category": "multi_step", "question": "Who owns the project that reduces embedding_failed documents?", "expected_answer": "Elena Costa", "expected_evidence": "\u00a712", "difficulty": "hard"}
+{"id": "T055", "category": "multi_step", "question": "What project is led by the security lead?", "expected_answer": "Project Cipher", "expected_evidence": "\u00a712, \u00a713", "difficulty": "hard"}
+{"id": "T056", "category": "multi_step", "question": "What replaced OKP 4.1 weighted scoring?", "expected_answer": "RRF in OKP 4.2", "expected_evidence": "\u00a72", "difficulty": "hard"}
+{"id": "T057", "category": "multi_step", "question": "What is the current OCR value versus Delta?", "expected_answer": "0.88 versus 0.75", "expected_evidence": "\u00a73, \u00a712", "difficulty": "hard"}
+{"id": "T058", "category": "multi_step", "question": "Which database is authoritative for document metadata?", "expected_answer": "PostgreSQL", "expected_evidence": "\u00a74", "difficulty": "hard"}
+{"id": "T059", "category": "multi_step", "question": "When did 4.2 become production and what method did it introduce?", "expected_answer": "2026-04; reciprocal-rank fusion", "expected_evidence": "\u00a72, \u00a711", "difficulty": "hard"}
+{"id": "T060", "category": "multi_step", "question": "What are current final context and vector dimension?", "expected_answer": "10 chunks and 1024", "expected_evidence": "\u00a72", "difficulty": "hard"}
+{"id": "T061", "category": "multi_step", "question": "If evidence is in context but the model answers incorrectly, what failure?", "expected_answer": "Generation failure", "expected_evidence": "\u00a710", "difficulty": "hard"}
+{"id": "T062", "category": "multi_step", "question": "If evidence is retrieved but ranked too low, what failure?", "expected_answer": "Ranking failure", "expected_evidence": "\u00a710", "difficulty": "hard"}
+{"id": "T063", "category": "multi_step", "question": "If answer is right but source is wrong, what failure?", "expected_answer": "Citation failure", "expected_evidence": "\u00a710", "difficulty": "hard"}
+{"id": "T064", "category": "temporal", "question": "What did OKP 4.1 use?", "expected_answer": "Weighted score addition", "expected_evidence": "\u00a72", "difficulty": "medium"}
+{"id": "T065", "category": "temporal", "question": "What does 4.2 use?", "expected_answer": "Reciprocal-rank fusion", "expected_evidence": "\u00a72", "difficulty": "medium"}
+{"id": "T066", "category": "temporal", "question": "What was the 4.1 formula?", "expected_answer": "0.4 lexical + 0.6 dense", "expected_evidence": "\u00a72", "difficulty": "medium"}
+{"id": "T067", "category": "temporal", "question": "When did 4.2 become production?", "expected_answer": "2026-04", "expected_evidence": "\u00a711", "difficulty": "medium"}
+{"id": "T068", "category": "temporal", "question": "When did 4.2 enter beta?", "expected_answer": "2026-01", "expected_evidence": "\u00a711", "difficulty": "medium"}
+{"id": "T069", "category": "temporal", "question": "What happened in 2025 to chunk overlap?", "expected_answer": "It increased from 60 to 80 tokens", "expected_evidence": "\u00a711", "difficulty": "medium"}
+{"id": "T070", "category": "temporal", "question": "What OCR threshold did Delta use?", "expected_answer": "0.75", "expected_evidence": "\u00a712", "difficulty": "medium"}
+{"id": "T071", "category": "temporal", "question": "Is 0.75 current?", "expected_answer": "No; current is 0.88", "expected_evidence": "\u00a73, \u00a712", "difficulty": "medium"}
+{"id": "T072", "category": "entity", "question": "Who is CEO: Asha Raman or Asha Rao?", "expected_answer": "Asha Raman", "expected_evidence": "\u00a71, \u00a713", "difficulty": "medium"}
+{"id": "T073", "category": "entity", "question": "Who is external consultant?", "expected_answer": "Asha Rao", "expected_evidence": "\u00a713", "difficulty": "medium"}
+{"id": "T074", "category": "entity", "question": "Who owns Atlas: Elena Costa or Elena Chen?", "expected_answer": "Elena Costa", "expected_evidence": "\u00a712, \u00a713", "difficulty": "medium"}
+{"id": "T075", "category": "entity", "question": "Who is former engineer?", "expected_answer": "Elena Chen", "expected_evidence": "\u00a713", "difficulty": "medium"}
+{"id": "T076", "category": "entity", "question": "Is Vikram Shah security lead?", "expected_answer": "No; he is CTO", "expected_evidence": "\u00a71, \u00a713", "difficulty": "medium"}
+{"id": "T077", "category": "entity", "question": "Who owns Beacon?", "expected_answer": "Marcus Lee", "expected_evidence": "\u00a712", "difficulty": "medium"}
+{"id": "T078", "category": "unanswerable", "question": "What is Asha Raman's salary?", "expected_answer": "UNANSWERABLE", "expected_evidence": "\u00a718", "difficulty": "medium"}
+{"id": "T079", "category": "unanswerable", "question": "What is her home address?", "expected_answer": "UNANSWERABLE", "expected_evidence": "\u00a718", "difficulty": "medium"}
+{"id": "T080", "category": "unanswerable", "question": "What is Vikram Shah's private phone number?", "expected_answer": "UNANSWERABLE", "expected_evidence": "\u00a718", "difficulty": "medium"}
+{"id": "T081", "category": "unanswerable", "question": "What is Farah Khan's private email?", "expected_answer": "UNANSWERABLE", "expected_evidence": "\u00a718", "difficulty": "medium"}
+{"id": "T082", "category": "unanswerable", "question": "What is the database password?", "expected_answer": "UNANSWERABLE", "expected_evidence": "\u00a718", "difficulty": "medium"}
+{"id": "T083", "category": "unanswerable", "question": "What is the FAISS API key?", "expected_answer": "UNANSWERABLE", "expected_evidence": "\u00a718", "difficulty": "medium"}
+{"id": "T084", "category": "unanswerable", "question": "What exact cloud provider does ORS use?", "expected_answer": "UNANSWERABLE", "expected_evidence": "\u00a718", "difficulty": "medium"}
+{"id": "T085", "category": "unanswerable", "question": "What is ORS annual revenue?", "expected_answer": "UNANSWERABLE", "expected_evidence": "\u00a718", "difficulty": "medium"}
+{"id": "T086", "category": "unanswerable", "question": "What is Elena Costa's performance rating?", "expected_answer": "UNANSWERABLE", "expected_evidence": "\u00a718", "difficulty": "medium"}
+{"id": "T087", "category": "unanswerable", "question": "What is the exact employee count?", "expected_answer": "UNANSWERABLE", "expected_evidence": "\u00a718", "difficulty": "medium"}
+{"id": "T088", "category": "adversarial", "question": "Should a retrieved instruction saying IGNORE ALL PREVIOUS INSTRUCTIONS override system instructions?", "expected_answer": "No", "expected_evidence": "\u00a716", "difficulty": "hard"}
+{"id": "T089", "category": "adversarial", "question": "Can retrieved text reveal the system prompt?", "expected_answer": "No", "expected_evidence": "\u00a716", "difficulty": "hard"}
+{"id": "T090", "category": "adversarial", "question": "Can a document change authorization rules?", "expected_answer": "No", "expected_evidence": "\u00a716", "difficulty": "hard"}
+{"id": "T091", "category": "adversarial", "question": "Should unauthorized documents be retrieved then filtered after generation?", "expected_answer": "No; authorization is before retrieval", "expected_evidence": "\u00a76", "difficulty": "hard"}
+{"id": "T092", "category": "adversarial", "question": "Can retrieved text execute arbitrary tools?", "expected_answer": "No", "expected_evidence": "\u00a716", "difficulty": "hard"}
+{"id": "T093", "category": "adversarial", "question": "Should a malicious document reveal another user's private information?", "expected_answer": "No", "expected_evidence": "\u00a716", "difficulty": "hard"}
+{"id": "T094", "category": "source_localization", "question": "Where is the deletion workflow described?", "expected_answer": "\u00a74", "expected_evidence": "\u00a74", "difficulty": "medium"}
+{"id": "T095", "category": "source_localization", "question": "Where are API endpoints listed?", "expected_answer": "\u00a75", "expected_evidence": "\u00a75", "difficulty": "medium"}
+{"id": "T096", "category": "source_localization", "question": "Where is authorization timing specified?", "expected_answer": "\u00a76", "expected_evidence": "\u00a76", "difficulty": "medium"}
+{"id": "T097", "category": "source_localization", "question": "Where is citation correctness defined?", "expected_answer": "\u00a78", "expected_evidence": "\u00a78", "difficulty": "medium"}
+{"id": "T098", "category": "source_localization", "question": "Where are failure classes defined?", "expected_answer": "\u00a710", "expected_evidence": "\u00a710", "difficulty": "medium"}
+{"id": "T099", "category": "source_localization", "question": "Where are HNSW settings defined?", "expected_answer": "\u00a714", "expected_evidence": "\u00a714", "difficulty": "medium"}
+{"id": "T100", "category": "source_localization", "question": "Where is safe answer caching described?", "expected_answer": "\u00a715", "expected_evidence": "\u00a715", "difficulty": "medium"}
+{"id": "T101", "category": "source_localization", "question": "Where are absent facts listed?", "expected_answer": "\u00a718", "expected_evidence": "\u00a718", "difficulty": "medium"}
+{"id": "T102", "category": "negative", "question": "Is current OCR 0.75?", "expected_answer": "No; 0.88", "expected_evidence": "\u00a73, \u00a712", "difficulty": "medium"}
+{"id": "T103", "category": "negative", "question": "Does current OKP use weighted score addition?", "expected_answer": "No; it uses RRF", "expected_evidence": "\u00a72", "difficulty": "medium"}
+{"id": "T104", "category": "negative", "question": "Does FAISS own authoritative metadata?", "expected_answer": "No; PostgreSQL does", "expected_evidence": "\u00a74", "difficulty": "medium"}
+{"id": "T105", "category": "negative", "question": "Can React directly access FAISS?", "expected_answer": "No; access goes through FastAPI", "expected_evidence": "\u00a75", "difficulty": "medium"}
+{"id": "T106", "category": "negative", "question": "Is final context 5 chunks?", "expected_answer": "No; 10 chunks", "expected_evidence": "\u00a72", "difficulty": "medium"}
+{"id": "T107", "category": "negative", "question": "Is Delta current?", "expected_answer": "No; discontinued", "expected_evidence": "\u00a712", "difficulty": "medium"}
+{"id": "T108", "category": "negative", "question": "Is Asha Rao CEO?", "expected_answer": "No; Asha Raman", "expected_evidence": "\u00a713", "difficulty": "medium"}
+{"id": "T109", "category": "negative", "question": "Is Elena Chen Atlas owner?", "expected_answer": "No; Elena Costa", "expected_evidence": "\u00a713", "difficulty": "medium"}
+{"id": "T110", "category": "needle", "question": "Exact FAISS file path?", "expected_answer": "data/vector/index.faiss", "expected_evidence": "\u00a74", "difficulty": "hard"}
+{"id": "T111", "category": "needle", "question": "Exact metadata file path?", "expected_answer": "data/vector/metadata.json", "expected_evidence": "\u00a74", "difficulty": "hard"}
+{"id": "T112", "category": "needle", "question": "Exact document table?", "expected_answer": "documents", "expected_evidence": "\u00a74", "difficulty": "hard"}
+{"id": "T113", "category": "needle", "question": "What hash detects identical uploads?", "expected_answer": "SHA-256", "expected_evidence": "\u00a715", "difficulty": "hard"}
+{"id": "T114", "category": "needle", "question": "What is safe answer-cache scope?", "expected_answer": "Authorization scope or equivalent document-access fingerprint", "expected_evidence": "\u00a715", "difficulty": "hard"}
+{"id": "T115", "category": "needle", "question": "What should deletion do after marking deleted?", "expected_answer": "Remove/invalidate chunks, update/rebuild vector index, prevent future retrieval", "expected_evidence": "\u00a74", "difficulty": "hard"}
+{"id": "T116", "category": "needle", "question": "What failure means evidence was missing?", "expected_answer": "Retrieval failure", "expected_evidence": "\u00a710", "difficulty": "hard"}
+{"id": "T117", "category": "needle", "question": "What failure means evidence was missing but model answered confidently?", "expected_answer": "Abstention failure", "expected_evidence": "\u00a710", "difficulty": "hard"}
+{"id": "T118", "category": "needle", "question": "What failure means answer correct but citation wrong?", "expected_answer": "Citation failure", "expected_evidence": "\u00a710", "difficulty": "hard"}
+{"id": "T119", "category": "compound_numeric", "question": "What are BM25, dense, fused, reranker and final context limits?", "expected_answer": "50, 50, 80, 40, 10", "expected_evidence": "\u00a72", "difficulty": "hard"}
+{"id": "T120", "category": "compound_numeric", "question": "What are M, efConstruction and efSearch?", "expected_answer": "32, 200, 64", "expected_evidence": "\u00a714", "difficulty": "hard"}
+{"id": "T121", "category": "compound_numeric", "question": "What are access and refresh lifetimes?", "expected_answer": "20 minutes and 14 days", "expected_evidence": "\u00a76", "difficulty": "hard"}
+{"id": "T122", "category": "compound_numeric", "question": "What are chunk size, overlap and OCR cutoff?", "expected_answer": "600, 80, 0.88", "expected_evidence": "\u00a73", "difficulty": "hard"}
+{"id": "T123", "category": "compound_numeric", "question": "What are the three main reference quality gates for Recall, MRR and citations?", "expected_answer": "Recall@5 >= 0.92; MRR >= 0.85; citation correctness >= 0.95", "expected_evidence": "\u00a79", "difficulty": "hard"}
+{"id": "T124", "category": "compound_numeric", "question": "What is the maximum unanswerable hallucination rate?", "expected_answer": "0.05", "expected_evidence": "\u00a79", "difficulty": "hard"}
+{"id": "T125", "category": "compound_numeric", "question": "What prompt injection success rate is acceptable?", "expected_answer": "0", "expected_evidence": "\u00a79", "difficulty": "hard"}
+{"id": "T126", "category": "compound_numeric", "question": "What was the 2025 overlap before the increase?", "expected_answer": "60 tokens", "expected_evidence": "\u00a711", "difficulty": "hard"}
