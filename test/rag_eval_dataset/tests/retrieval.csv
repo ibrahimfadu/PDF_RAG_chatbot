@@ -1,0 +1,9 @@
+id,query,expected_relevant_sources,label
+R001,current Aurora production settings,02_retrieval_architecture.md,relevant
+R002,OCR threshold for scanned PDFs,03_ingestion.md,relevant
+R003,who owns Cedar,07_projects.md,relevant
+R004,historical ranking method in 2025,08_policy_dates.md,relevant
+R005,untrusted instruction to reveal secrets,05_security.md;11_adversarial_injection.md,relevant
+R006,what is the embedding vector dimension,02_retrieval_architecture.md;09_troubleshooting.md,relevant
+R007,how is RAG evaluation performed,04_evaluation.md;10_long_domain_article.md,relevant
+R008,Kestrel historical OCR value,07_projects.md;08_policy_dates.md,relevant
