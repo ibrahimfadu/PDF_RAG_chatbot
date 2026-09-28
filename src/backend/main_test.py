@@ -1,6 +1,7 @@
 from fastapi import Depends,FastAPI
 from fastapi.security import OAuth2PasswordBearer
 from typing import Annotated
+
 oauth2 = OAuth2PasswordBearer(tokenUrl="token")
 
 app = FastAPI()
