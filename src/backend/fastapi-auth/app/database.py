@@ -1,13 +1,16 @@
 from sqlalchemy import create_engine
-from config import get_setting 
+from app.config import get_setting 
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm import declarative_base
+from sqlalchemy import text
+
 setting = get_setting()
 
-engin = create_engine(setting.DATABASE_URL)
+engine = create_engine(setting.DATABASE_URL)
 
 LocalSession = sessionmaker(bind=engine)
-Base = declarative_base
+
+Base = declarative_base()
 
 
 def get_db():
@@ -16,6 +19,10 @@ def get_db():
         yield db
     finally:
         db.close();
+
+with engine.connect() as conn:
+    result = conn.execute(text("select 'hello world'"))
+    print(result.all())
 
 
 
